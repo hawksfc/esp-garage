@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/bootloader
+/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/bootloader.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/bootloader-complete.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hawkdev/Documents/Projects/esp-garage/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

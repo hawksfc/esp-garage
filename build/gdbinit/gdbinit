@@ -1,0 +1,2 @@
+source /home/hawkdev/Documents/Projects/esp-garage/build/gdbinit/symbols
+source /home/hawkdev/Documents/Projects/esp-garage/build/gdbinit/connect

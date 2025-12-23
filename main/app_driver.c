@@ -14,7 +14,6 @@
 #include <esp_rmaker_standard_params.h> 
 
 #include <app_reset.h>
-#include <ws2812_led.h>
 #include "app_priv.h"
 
 /* This is the button that is used for toggling the power */
@@ -22,31 +21,18 @@
 #define BUTTON_ACTIVE_LEVEL  0
 
 /* This is the GPIO on which the power will be set */
-#define OUTPUT_GPIO    2
-static bool g_power_state = DEFAULT_POWER;
+#define OUTPUT_GPIO_OPEN    25
+#define OUTPUT_GPIO_STOP    26
+#define OUTPUT_GPIO_CLOSE   27
 
-/* These values correspoind to H,S,V = 120,100,10 */
-#define DEFAULT_RED     0
-#define DEFAULT_GREEN   25
-#define DEFAULT_BLUE    0
+/* Pulse duration */
+#define PULSE_DURATION_MS   500
+
+static bool g_power_state = DEFAULT_POWER;
 
 #define WIFI_RESET_BUTTON_TIMEOUT       3
 #define FACTORY_RESET_BUTTON_TIMEOUT    10
 
-static void app_indicator_set(bool state)
-{
-    if (state) {
-        ws2812_led_set_rgb(DEFAULT_RED, DEFAULT_GREEN, DEFAULT_BLUE);
-    } else {
-        ws2812_led_clear();
-    }
-}
-
-static void app_indicator_init(void)
-{
-    ws2812_led_init();
-    app_indicator_set(g_power_state);
-}
 static void push_btn_cb(void *arg)
 {
     bool new_state = !g_power_state;
@@ -59,25 +45,47 @@ static void push_btn_cb(void *arg)
      */
     if (new_state) {
         esp_rmaker_param_update_and_notify(
-                esp_rmaker_device_get_param_by_name(switch_device, ESP_RMAKER_DEF_POWER_NAME),
+                esp_rmaker_device_get_param_by_name(open_garage_device, ESP_RMAKER_DEF_POWER_NAME),
                 esp_rmaker_bool(new_state));
     } else {
         esp_rmaker_param_update_and_report(
-                esp_rmaker_device_get_param_by_name(switch_device, ESP_RMAKER_DEF_POWER_NAME),
+                esp_rmaker_device_get_param_by_name(open_garage_device, ESP_RMAKER_DEF_POWER_NAME),
                 esp_rmaker_bool(new_state));
         esp_rmaker_raise_alert("Switch was turned off");
     }
 #else
     esp_rmaker_param_update_and_report(
-            esp_rmaker_device_get_param_by_name(switch_device, ESP_RMAKER_DEF_POWER_NAME),
+            esp_rmaker_device_get_param_by_name(open_garage_device, ESP_RMAKER_DEF_POWER_NAME),
             esp_rmaker_bool(new_state));
+            
 #endif
+}
+
+static void pulse_gpio (int gpio_num)
+{
+    gpio_set_level(gpio_num, 0);
+    vTaskDelay(PULSE_DURATION_MS / portTICK_PERIOD_MS);
+    gpio_set_level(gpio_num, 1);
+}
+
+void app_driver_pulse_open(void)
+{
+    pulse_gpio(OUTPUT_GPIO_OPEN);
+}
+
+void app_driver_pulse_close(void)
+{
+    pulse_gpio(OUTPUT_GPIO_CLOSE);
+}
+
+void app_driver_pulse_stop(void)
+{
+    pulse_gpio(OUTPUT_GPIO_STOP);
 }
 
 static void set_power_state(bool target)
 {
-    gpio_set_level(OUTPUT_GPIO, target);
-    app_indicator_set(target);
+    gpio_set_level(OUTPUT_GPIO_OPEN, target);
 }
 
 void app_driver_init()
@@ -95,10 +103,16 @@ void app_driver_init()
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = 1,
     };
-    io_conf.pin_bit_mask = ((uint64_t)1 << OUTPUT_GPIO);
+    io_conf.pin_bit_mask = ((uint64_t)1 << OUTPUT_GPIO_OPEN) |
+                           ((uint64_t)1 << OUTPUT_GPIO_CLOSE) |
+                           ((uint64_t)1 << OUTPUT_GPIO_STOP);
     /* Configure the GPIO */
     gpio_config(&io_conf);
-    app_indicator_init();
+
+    /* Set initial state */
+    gpio_set_level(OUTPUT_GPIO_OPEN, 1);
+    gpio_set_level(OUTPUT_GPIO_CLOSE, 1);
+    gpio_set_level(OUTPUT_GPIO_STOP, 1);
 }
 
 int IRAM_ATTR app_driver_set_state(bool state)

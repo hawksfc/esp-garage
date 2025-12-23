@@ -120,9 +120,7 @@ def main():
 
     parser.add_argument(
         '--efuse_key_file',
-        help='eFuse key file which contains the '
-             'key that shall be burned in '
-             'the eFuse (e.g. HMAC key, ECDSA key)',
+        help='eFuse key file which contains the key that shall be burned in the eFuse (for HMAC key only, not for ECDSA key).',
         metavar='[/path/to/efuse key file]')
 
     parser.add_argument(
@@ -158,6 +156,12 @@ def main():
         metavar='[/path/to/esp_secure_cert_config.csv]',
         help='CSV file containing ESP Secure Cert contents (TLV entries, custom data). ')
 
+    parser.add_argument(
+        '--parse_bin',
+        dest='parse_bin',
+        metavar='[/path/to/esp_secure_cert.bin]',
+        help='Parse an esp_secure_cert.bin file and generate CSV with extracted certificates/keys')
+
     args = parser.parse_args()
 
     idf_target = args.target_chip
@@ -171,6 +175,10 @@ def main():
     if args.summary is not False:
         log_efuse_summary(idf_target, args.port)
         sys.exit(0)
+
+    if args.parse_bin:
+        EspSecureCert.parse_esp_secure_cert_bin(args.parse_bin)
+        return
 
     if (args.privkey is not None and os.path.exists(args.privkey) is False):
         print('ERROR: The provided private key file does not exist')
@@ -194,7 +202,7 @@ def main():
     if args.sec_cert_type == 'cust_flash_tlv':
         # Create instance of EspSecureCert
         esp_secure_cert = EspSecureCert()
-        
+
         # Create entry for CA certificate (if provided)
 
         if args.ca_cert is not None:
@@ -234,7 +242,7 @@ def main():
                 'algorithm': args.priv_key_algo[0].upper() if args.priv_key_algo else '',
                 'key_size': int(args.priv_key_algo[1]) if args.priv_key_algo and len(args.priv_key_algo) > 1 else 0,
                 'efuse_id': args.efuse_key_id if hasattr(args, 'efuse_key_id') else 0,
-                'efuse_key_file': args.efuse_key_file if hasattr(args, 'efuse_key_file') else None,
+                'efuse_key_file': args.efuse_key_file if hasattr(args, 'efuse_key_file') else None, # For HMAC key only, not for ECDSA key
             }
             esp_secure_cert.add_entry(entry_priv)
 
@@ -245,7 +253,10 @@ def main():
         if not args.skip_flash:
             esp_secure_cert.flash_esp_secure_cert_partition(args.target_chip, args.port, args.sec_cert_part_offset, bin_filename)
         else:
-            print(f'To flash manually: esptool.py --chip {args.target_chip} -p {args.port} write_flash {args.sec_cert_part_offset} {bin_filename}')
+            if args.port:
+                print(f'To flash manually: esptool.py --chip {args.target_chip} -p {args.port} write_flash {args.sec_cert_part_offset} {bin_filename}')
+            else:
+                print(f'To flash manually: esptool.py --chip {args.target_chip} -p <PORT> write_flash {args.sec_cert_part_offset} {bin_filename}')
 
         esp_secure_cert.esp_secure_cert_cleanup()
 
@@ -255,11 +266,11 @@ def main():
         if args.configure_ds is not False:
             custflash_format.generate_partition_ds(c, iv, args.efuse_key_id,
                                                    key_size, args.device_cert,
-                                                   ca_cert, idf_target,
+                                                   args.ca_cert, idf_target,
                                                    bin_filename)
         else:
             custflash_format.generate_partition_no_ds(args.device_cert,
-                                                      ca_cert,
+                                                      args.ca_cert,
                                                       args.privkey,
                                                       args.priv_key_pass,
                                                       idf_target, bin_filename)
@@ -268,9 +279,9 @@ def main():
         if args.configure_ds is not False:
             nvs_format.generate_csv_file_ds(c, iv, args.efuse_key_id,
                                             key_size, args.device_cert,
-                                            ca_cert, csv_filename)
+                                            args.ca_cert, csv_filename)
         else:
-            nvs_format.generate_csv_file_no_ds(args.device_cert, ca_cert,
+            nvs_format.generate_csv_file_no_ds(args.device_cert, args.ca_cert,
                                                args.privkey,
                                                args.priv_key_pass,
                                                csv_filename)

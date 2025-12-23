@@ -10,7 +10,12 @@
 #include <stdbool.h>
 
 #define DEFAULT_POWER  true
-extern esp_rmaker_device_t *switch_device;
+extern esp_rmaker_device_t *open_garage_device;
+extern esp_rmaker_device_t *stop_garage_device;
+extern esp_rmaker_device_t *close_garage_device;
 void app_driver_init(void);
+void app_driver_pulse_open(void);
+void app_driver_pulse_close(void);
+void app_driver_pulse_stop(void);
 int app_driver_set_state(bool state);
 bool app_driver_get_state(void);

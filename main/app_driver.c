@@ -21,7 +21,7 @@
 #define BUTTON_ACTIVE_LEVEL  0
 
 /* This is the GPIO on which the power will be set */
-#define OUTPUT_GPIO_OPEN    25
+#define OUTPUT_GPIO_OPEN    2
 #define OUTPUT_GPIO_STOP    26
 #define OUTPUT_GPIO_CLOSE   27
 

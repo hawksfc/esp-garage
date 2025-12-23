@@ -23,6 +23,8 @@ events:
     names:
       - "git"
     candidate_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -44,7 +46,10 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/git"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/git"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/git"
@@ -64,6 +69,8 @@ events:
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -85,6 +92,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -105,6 +113,8 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -126,8 +136,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/uname"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/uname"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/uname"
@@ -147,6 +160,8 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -168,6 +183,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -199,6 +215,8 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -220,7 +238,14 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/ninja-build"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/ninja"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/samu"
@@ -273,6 +298,8 @@ events:
     found: "/usr/bin/ninja"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -294,6 +321,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -315,6 +343,8 @@ events:
     names:
       - "xtensa-esp32-elf-gcc"
     candidate_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -336,7 +366,10 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc"
@@ -347,6 +380,8 @@ events:
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -368,6 +403,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -398,6 +434,8 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -419,6 +457,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -465,6 +504,8 @@ events:
       - "ar"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -485,9 +526,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ar"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -509,6 +553,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -532,6 +577,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -552,9 +599,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -576,6 +626,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -599,6 +650,8 @@ events:
       - "strip"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -619,9 +672,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-strip"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -643,6 +699,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -666,6 +723,8 @@ events:
       - "ld"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -686,9 +745,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ld"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -710,6 +772,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -733,6 +796,8 @@ events:
       - "nm"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -753,9 +818,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-nm"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -777,6 +845,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -800,6 +869,8 @@ events:
       - "objdump"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -820,9 +891,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -844,6 +918,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -867,6 +942,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -887,9 +964,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objcopy"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -911,6 +991,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -934,6 +1015,8 @@ events:
       - "readelf"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -954,9 +1037,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-readelf"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -978,6 +1064,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1001,6 +1088,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1021,8 +1110,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-dlltool"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-dlltool"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-dlltool"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-dlltool"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-dlltool"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-dlltool"
@@ -1043,7 +1135,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-dlltool"
       - "/usr/bin/core_perl/xtensa-esp32-elf-dlltool"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-dlltool"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-dlltool"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/dlltool"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/dlltool"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/dlltool"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/dlltool"
@@ -1064,9 +1159,12 @@ events:
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
       - "/var/lib/snapd/snap/bin/dlltool"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1088,6 +1186,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1111,6 +1210,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1131,9 +1232,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-addr2line"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1155,6 +1259,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1178,6 +1283,8 @@ events:
       - "tapi"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1198,8 +1305,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-tapi"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-tapi"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-tapi"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-tapi"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-tapi"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-tapi"
@@ -1220,7 +1330,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-tapi"
       - "/usr/bin/core_perl/xtensa-esp32-elf-tapi"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-tapi"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-tapi"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/tapi"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/tapi"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/tapi"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/tapi"
@@ -1241,9 +1354,12 @@ events:
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
       - "/var/lib/snapd/snap/bin/tapi"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1265,6 +1381,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1290,6 +1407,8 @@ events:
       - "xtensa-esp32-elf-gcc-ar"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1310,8 +1429,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar-14.2"
@@ -1332,7 +1454,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar-14.2"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar-14.2"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar-14"
@@ -1353,7 +1478,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar-14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar-14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar-14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar14"
@@ -1374,9 +1502,12 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar14"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1398,6 +1529,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1423,6 +1555,8 @@ events:
       - "xtensa-esp32-elf-gcc-ranlib"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1443,8 +1577,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -1465,7 +1602,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib-14"
@@ -1486,7 +1626,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib-14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib-14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib14"
@@ -1507,9 +1650,12 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib14"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1531,6 +1677,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1552,6 +1699,8 @@ events:
     names:
       - "xtensa-esp32-elf-g++"
     candidate_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1573,7 +1722,10 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-g++"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-g++"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-g++"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-g++"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-g++"
@@ -1584,6 +1736,8 @@ events:
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1605,6 +1759,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1635,6 +1790,8 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1656,6 +1813,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -1704,6 +1862,8 @@ events:
       - "xtensa-esp32-elf-gcc-ar"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1724,8 +1884,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar-14.2"
@@ -1746,7 +1909,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar-14.2"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar-14.2"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14.2"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar-14"
@@ -1767,7 +1933,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar-14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar-14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar-14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar14"
@@ -1788,9 +1957,12 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar14"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1812,6 +1984,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1837,6 +2010,8 @@ events:
       - "xtensa-esp32-elf-gcc-ranlib"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1857,8 +2032,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -1879,7 +2057,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib-14"
@@ -1900,7 +2081,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib-14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib-14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib14"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib14"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib14"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib14"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib14"
@@ -1921,9 +2105,12 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib14"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib14"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib14"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib14"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -1945,6 +2132,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1966,6 +2154,8 @@ events:
     names:
       - "xtensa-esp32-elf-gcc"
     candidate_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -1987,7 +2177,10 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc"
@@ -1998,6 +2191,8 @@ events:
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -2019,6 +2214,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2058,6 +2254,8 @@ events:
       - "xtensa-esp32-elf-gcc-ar"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -2078,8 +2276,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar-"
@@ -2100,7 +2301,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar-"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar-"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar-"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ar-"
@@ -2121,9 +2325,12 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ar-"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ar-"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ar-"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -2145,6 +2352,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2170,6 +2378,8 @@ events:
       - "xtensa-esp32-elf-gcc-ranlib"
     candidate_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/"
@@ -2190,8 +2400,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/var/lib/snapd/snap/bin/"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib-"
@@ -2212,7 +2425,10 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib-"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib-"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib-"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-"
+      - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-"
       - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011/xtensa-esp32-elf-gcc-ranlib-"
@@ -2233,9 +2449,12 @@ events:
       - "/usr/bin/vendor_perl/xtensa-esp32-elf-gcc-ranlib-"
       - "/usr/bin/core_perl/xtensa-esp32-elf-gcc-ranlib-"
       - "/var/lib/snapd/snap/bin/xtensa-esp32-elf-gcc-ranlib-"
+      - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-"
     found: "/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hawkdev/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/hawkdev/esp/esp-idf/components/espcoredump"
         - "/home/hawkdev/esp/esp-idf/components/partition_table"
         - "/home/hawkdev/.espressif/tools/esp-rom-elfs/20241011"
@@ -2257,6 +2476,7 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/var/lib/snapd/snap/bin"
+        - "/home/hawkdev/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2267,8 +2487,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-mZw4d3"
-      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-mZw4d3"
+      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-VSpfvj"
+      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-VSpfvj"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2278,10 +2498,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-mZw4d3'
+        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-VSpfvj'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_7f07c
-        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_984fa
+        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -2289,8 +2509,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7f07c.dir/'
-         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7f07c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/ccmkOL2H.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_984fa.dir/'
+         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_984fa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/cchrnzzQ.s
         GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version 4.9.2, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2307,12 +2527,12 @@ events:
          /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 81174f71db4416537376b4420f5c69fd
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7f07c.dir/'
-         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj /tmp/ccmkOL2H.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_984fa.dir/'
+         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj /tmp/cchrnzzQ.s
         COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj -o cmTC_7f07c   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj -o cmTC_984fa   && :
         Using built-in specs.
         COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -2323,10 +2543,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7f07c' '-dumpdir' 'cmTC_7f07c.'
-         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccK8r8I9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_7f07c -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_984fa' '-dumpdir' 'cmTC_984fa.'
+         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4oc5xh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_984fa -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7f07c' '-dumpdir' 'cmTC_7f07c.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_984fa' '-dumpdir' 'cmTC_984fa.'
         
       exitCode: 0
   -
@@ -2361,10 +2581,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-mZw4d3']
+        ignore line: [Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-VSpfvj']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_7f07c]
-        ignore line: [[1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_984fa]
+        ignore line: [[1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -2372,8 +2592,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7f07c.dir/']
-        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7f07c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/ccmkOL2H.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_984fa.dir/']
+        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_984fa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/cchrnzzQ.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2390,12 +2610,12 @@ events:
         ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 81174f71db4416537376b4420f5c69fd]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7f07c.dir/']
-        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj /tmp/ccmkOL2H.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_984fa.dir/']
+        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj /tmp/cchrnzzQ.s]
         ignore line: [COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj -o cmTC_7f07c   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj -o cmTC_984fa   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -2406,13 +2626,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7f07c' '-dumpdir' 'cmTC_7f07c.']
-        link line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccK8r8I9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_7f07c -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_984fa' '-dumpdir' 'cmTC_984fa.']
+        link line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4oc5xh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_984fa -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccK8r8I9.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc4oc5xh.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -2421,7 +2641,7 @@ events:
           arg [--sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7f07c] ==> ignore
+          arg [cmTC_984fa] ==> ignore
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -2430,7 +2650,7 @@ events:
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_7f07c.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_984fa.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -2438,7 +2658,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_7f07c' '-dumpdir' 'cmTC_7f07c.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_984fa' '-dumpdir' 'cmTC_984fa.']
         ignore line: []
         ignore line: []
         collapse library dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -2465,8 +2685,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-5s6gcb"
-      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-5s6gcb"
+      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-FVozLb"
+      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-FVozLb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2477,10 +2697,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-5s6gcb'
+        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-FVozLb'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_8bd39
-        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_0b291
+        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -2488,8 +2708,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bd39.dir/'
-         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8bd39.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/ccIz8e9S.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0b291.dir/'
+         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0b291.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/ccBx1RT6.s
         GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version 4.9.2, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2512,12 +2732,12 @@ events:
          /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 00a0abec3a35f1fd29e56d9fb54b091a
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bd39.dir/'
-         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccIz8e9S.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0b291.dir/'
+         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccBx1RT6.s
         COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8bd39   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0b291   && :
         Using built-in specs.
         COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -2528,10 +2748,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_8bd39' '-dumpdir' 'cmTC_8bd39.'
-         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSPUlbL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_8bd39 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_0b291' '-dumpdir' 'cmTC_0b291.'
+         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclK3cCy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_0b291 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_8bd39' '-dumpdir' 'cmTC_8bd39.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_0b291' '-dumpdir' 'cmTC_0b291.'
         
       exitCode: 0
   -
@@ -2572,10 +2792,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-5s6gcb']
+        ignore line: [Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-FVozLb']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_8bd39]
-        ignore line: [[1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_0b291]
+        ignore line: [[1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -2583,8 +2803,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bd39.dir/']
-        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8bd39.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/ccIz8e9S.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0b291.dir/']
+        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0b291.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /tmp/ccBx1RT6.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2607,12 +2827,12 @@ events:
         ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 00a0abec3a35f1fd29e56d9fb54b091a]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bd39.dir/']
-        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccIz8e9S.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0b291.dir/']
+        ignore line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccBx1RT6.s]
         ignore line: [COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8bd39   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0b291   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -2623,13 +2843,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_8bd39' '-dumpdir' 'cmTC_8bd39.']
-        link line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSPUlbL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_8bd39 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_0b291' '-dumpdir' 'cmTC_0b291.']
+        link line: [ /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclK3cCy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_0b291 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccSPUlbL.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cclK3cCy.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -2638,7 +2858,7 @@ events:
           arg [--sysroot=/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8bd39] ==> ignore
+          arg [cmTC_0b291] ==> ignore
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -2647,7 +2867,7 @@ events:
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_8bd39.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_0b291.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -2657,7 +2877,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_8bd39' '-dumpdir' 'cmTC_8bd39.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_0b291' '-dumpdir' 'cmTC_0b291.']
         ignore line: []
         ignore line: []
         collapse library dir [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -2685,8 +2905,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-xH8aaI"
-      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-xH8aaI"
+      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-W5gSJj"
+      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-W5gSJj"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2696,17 +2916,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-xH8aaI'
+        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-W5gSJj'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_a204f
-        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_a204f.dir/src.c.obj -c /home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-xH8aaI/src.c
-        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_a204f.dir/src.c.obj -o cmTC_a204f   && :
-        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_a204f.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_a204f.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_a204f.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_a204f.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_a204f.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_a204f.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        Run Build Command(s): /usr/bin/ninja -v cmTC_542c1
+        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_542c1.dir/src.c.obj -c /home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-W5gSJj/src.c
+        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_542c1.dir/src.c.obj -o cmTC_542c1   && :
+        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_542c1.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_542c1.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_542c1.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_542c1.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_542c1.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_542c1.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0
@@ -2720,8 +2940,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-p9zIdF"
-      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-p9zIdF"
+      source: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-lkbszl"
+      binary: "/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-lkbszl"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2731,11 +2951,11 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-p9zIdF'
+        Change Dir: '/home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-lkbszl'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_34439
-        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_34439.dir/src.c.obj -c /home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-p9zIdF/src.c
-        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_34439.dir/src.c.obj -o cmTC_34439   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_3f142
+        [1/2] /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_3f142.dir/src.c.obj -c /home/hawkdev/Documents/Projects/esp-garage/build/CMakeFiles/CMakeScratch/TryCompile-lkbszl/src.c
+        [2/2] : && /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_3f142.dir/src.c.obj -o cmTC_3f142   && :
         /home/hawkdev/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0

@@ -35,6 +35,7 @@ static const char *TAG = "app_main";
 esp_rmaker_device_t *stop_garage_device;
 esp_rmaker_device_t *close_garage_device;
 esp_rmaker_device_t *open_garage_device;
+esp_rmaker_device_t *garage_device;
 
 /* Callback to handle commands received from the RainMaker cloud */
 static esp_err_t write_cb(const esp_rmaker_device_t *device, const esp_rmaker_param_t *param, const esp_rmaker_param_val_t val, void *priv_data, esp_rmaker_write_ctx_t *ctx)
@@ -210,6 +211,7 @@ void app_main()
     close_garage_device = esp_rmaker_device_create("Close Garage", ESP_RMAKER_DEVICE_SWITCH, NULL);
     stop_garage_device = esp_rmaker_device_create("Stop Garage", ESP_RMAKER_DEVICE_SWITCH, NULL);
     open_garage_device = esp_rmaker_device_create("Open Garage", ESP_RMAKER_DEVICE_SWITCH, NULL);
+    garage_device = esp_rmaker_device_create("Garage", NULL, false);
 
     /* Add the write callback for the device. We aren't registering any read callback yet as
      * it is for future use.
@@ -217,6 +219,7 @@ void app_main()
     esp_rmaker_device_add_cb(close_garage_device, write_cb, NULL);
     esp_rmaker_device_add_cb(stop_garage_device, write_cb, NULL);
     esp_rmaker_device_add_cb(open_garage_device, write_cb, NULL);
+    esp_rmaker_device_add_cb(garage_device, write_cb, NULL);
 
     /* Add the standard name parameter (type: esp.param.name), which allows setting a persistent,
      * user friendly custom name from the phone apps. All devices are recommended to have this
